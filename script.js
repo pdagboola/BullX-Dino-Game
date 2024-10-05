@@ -73,7 +73,7 @@ function createCactus() {
       dinoPosition < cactusHeight
     ) {
       clearInterval(leftInterval);
-      gameOver.innerHTML = `<div><h1 class="game-over">Game Over Bulla    score: ${cactiCount}</h1></div>`;
+      gameOver.innerHTML = `<div><h1 class="game-over">Game Over Enjoyooor  score: ${cactiCount}</h1></div>`;
       gameStarted = false;
       clearInterval(speedIncreaseInterval);
       resetGame();

@@ -11,10 +11,16 @@ body {
   align-items: end;
   height: 100vh;
   background-color: #f7f7f7;
-  background-image: url(/dotdash_Final_Forex_Identifying_Trending_And_Range-Bound_Currencies_Jul_2020-01-97a8345d8fdb48819922e852ab9ad9f4.webp);
+  /* background-image: url(/); */
   margin: 0;
 }
-
+.moba {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  right: 100px;
+}
 .game-container {
   position: relative;
   width: 800px;
@@ -32,15 +38,19 @@ body {
   bottom: 0;
   width: 50px;
   height: 50px;
-  background: url(/Mask\ group.png);
-  background-repeat: no-repeat;
+  /* background: url(/Mask\ group.png); */
+  background-repeat: repeat;
+  img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .cactus {
   position: absolute;
   bottom: 0;
   width: 20px;
-  background: url(/Group\ 990.png);
+  background: url(/Group\ 991.png);
 }
 
 footer {
@@ -68,7 +78,7 @@ header {
   align-items: center;
   margin-bottom: 100px;
   a {
-    background-color: rgb(17, 78, 17);
+    background-color: rgb(19, 91, 199);
     text-decoration: none;
     color: white;
     font-family: "Overpass";
